@@ -72,6 +72,7 @@ return {
       servers = {
         -- pyright will be automatically installed with mason and loaded with lspconfig
         pyright = {},
+        nil_ls = {},
       },
     },
   },
@@ -187,6 +188,7 @@ return {
     "williamboman/mason.nvim",
     opts = {
       ensure_installed = {
+        "nixfmt",
         "stylua",
         "shellcheck",
         "shfmt",
