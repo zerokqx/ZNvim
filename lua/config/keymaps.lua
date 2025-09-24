@@ -10,3 +10,4 @@ vim.keymap.set("n", "<C-S-Down>", "<cmd>resize -2<cr>", { desc = "Decrease windo
 vim.keymap.set("n", "<C-S-Left>", "<cmd>vertical resize -2<cr>", { desc = "Decrease window width" })
 vim.keymap.set("n", "<C-S-Right>", "<cmd>vertical resize +2<cr>", { desc = "Increase window width" })
 vim.keymap.set("n", "<Leader>cn", ":lua require('neogen').generate()<CR>", { desc = "Neogen" })
+vim.keymap.set("n", "<Leader>rt", ":terminal bun run %<CR>", { desc = "Launch Typescript" })

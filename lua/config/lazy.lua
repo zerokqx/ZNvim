@@ -31,7 +31,9 @@ require("lazy").setup({
       -- version = "*"
     },
     { "wakatime/vim-wakatime", lazy = false },
+    { "andweeb/presence.nvim", lazy = false },
     {
+
       "jonroosevelt/gemini-cli.nvim",
       config = function()
         require("gemini").setup({
