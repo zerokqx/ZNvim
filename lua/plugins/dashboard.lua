@@ -8,15 +8,13 @@ return {
         end,
 
         header = [[
-                                        `888                               
-  oooooooo  .ooooo.  oooo d8b  .ooooo.   888  oooo   .ooooo oo oooo    ooo 
- d'""7d8P  d88' `88b `888""8P d88' `88b  888 .8P'   d88' `888   `88b..8P'  
-   .d8P'   888ooo888  888     888   888  888888.    888   888     Y888'    
- .d8P'  .P 888    .o  888     888   888  888 `88b.  888   888   .o8"'88b   
-d8888888P  `Y8bod8P' d888b    `Y8bod8P' o888o o888o `V8bod888  o88'   888o 
-                                                          888.             
-                                                          8P'              
-                                                          "
+ oooooooooooo ooooo      ooo              o8o                    
+d'""""""d888' `888b.     `8'              `"'                    
+      .888P    8 `88b.    8  oooo    ooo oooo  ooo. .oo.  .oo.   
+     d888'     8   `88b.  8   `88.  .8'  `888  `888P"Y88bP"Y88b  
+   .888P       8     `88b.8    `88..8'    888   888   888   888  
+  d888'    .P  8       `888     `888'     888   888   888   888  
+.8888888888P  o8o        `8      `8'     o888o o888o o888o o888o 
  ]],
         -- stylua: ignore
         ---@type snacks.dashboard.Item[]
