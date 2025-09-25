@@ -24,12 +24,6 @@ require("lazy").setup({
       "direnv/direnv.vim",
       event = "VeryLazy",
     },
-    {
-      "danymat/neogen",
-      config = true,
-      -- Uncomment next line if you want to follow only stable versions
-      -- version = "*"
-    },
     { "wakatime/vim-wakatime", lazy = false },
     { "andweeb/presence.nvim", lazy = false },
     {
