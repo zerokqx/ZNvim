@@ -35,6 +35,18 @@ require("lazy").setup({
         })
       end,
     },
+    -- {
+    --   "nvim-mini/mini.nvim",
+    --   version = "*",
+    --   config = function()
+    --     require("mini.completion").setup({
+    --       window = {
+    --         info = { height = 10, width = 10, border = "rounded" },
+    --         signature = { height = 10, width = 10, border = "rounded" },
+    --       },
+    --     })
+    --   end,
+    -- },
     {
       "johmsalas/text-case.nvim",
       dependencies = { "nvim-telescope/telescope.nvim" },
