@@ -1,4 +1,4 @@
-local M = {}
+local M = { name = "Mini-files" }
 function M.miniFilesRoot()
   local miniF = require("mini.files")
   local path = vim.fn.getcwd()
