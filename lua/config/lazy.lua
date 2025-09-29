@@ -31,6 +31,9 @@ require("lazy").setup({
       lazy = false,
     },
     {
+      "ivanesmantovich/xkbswitch.nvim",
+    },
+    {
 
       "jonroosevelt/gemini-cli.nvim",
       config = function()
