@@ -2,10 +2,10 @@ return {
   "neovim/nvim-lspconfig",
   opts = {
     servers = {
-      -- tsserver = {
-      --   filetypes = { "typescript", "typescriptreact", "javascript", "javascriptreact" },
-      --   enabled = true,
-      -- },
+      tsserver = {
+        filetypes = { "typescript", "typescriptreact", "javascript", "javascriptreact" },
+        enabled = true,
+      },
       rust_analyzer = {
         filetypes = { "rust" },
       },

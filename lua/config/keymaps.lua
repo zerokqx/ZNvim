@@ -15,3 +15,12 @@ set("n", "<Leader>rt", ":terminal bun run %<CR>", { desc = "Launch Typescript" }
 set("n", "<leader>ci", function()
   require("functions.fileManager.importInIndex").importInIndex()
 end, { desc = "Generate exports in index.ts(x)" })
+
+set("n", "<Leader>cm", function()
+  vim.lsp.buf.code_action({
+    filter = function(action)
+      return action.kind == "source.addMissingImports"
+    end,
+    apply = true,
+  })
+end, { desc = "Add missing imports" })

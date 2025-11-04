@@ -1,6 +1,7 @@
 return {
   "pmizio/typescript-tools.nvim",
   dependencies = { "nvim-lua/plenary.nvim", "neovim/nvim-lspconfig" },
+  enable = true,
   opts = {
     -- Настройки, специфичные для typescript-tools
     settings = {
@@ -60,4 +61,3 @@ return {
     end,
   },
 }
-
